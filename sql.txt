@@ -1,0 +1,31 @@
+
+:: Aggregate functions perform a calculation on specified values, queried from a database table.
+
+Using Aggregate Functions
+
+Average AVG()
+it returns the average value of a column. 
+  :: SELECT AVG(column_name) FROM table_name;
+
+SUM()
+It returns the sum of all of the values in a particular column.
+  :: SELECT SUM(column_name) FROM table_name;
+
+MIN() and MAX()
+The minimum and maximum aggregator functions return the minimum and maximum values from a specified column respectively.
+  :: SELECT MIN(column_name) FROM table_name;
+  :: SELECT MAX(column_name) FROM table_name;
+
+COUNT()
+It function returns the number of rows that meet a certain condition.
+  :: SELECT COUNT(column_name) FROM table_name;
+
+
+
+
+
+
+
+
+
+
